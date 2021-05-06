@@ -1,0 +1,53 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# maven ignore
+target/
+.mvn
+mvnw
+mvnw.cmd
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+#*.ver
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.cache.lock
+ver/
+versions.mapping
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
